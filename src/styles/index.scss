@@ -1,0 +1,69 @@
+@import './element-ui.scss';
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0;
+  margin: 0 0;
+}
+/* chrome & safari 浏览器 */
+::-webkit-scrollbar-track { /* 定义滚动条轨道  内阴影+圆角*/
+  -webkit-box-shadow: inset 0 0 6px #ffffff;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar { /*滚动条整体样式*/
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+  background-color: #f5f5f5;
+  border-radius: 0.1rem !important;
+}
+
+::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 1px #e4e4e4;
+  background-color: #e4e4e4;
+}
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.form-button {
+  margin: 10px auto 0 auto;
+  height: 40px;
+  text-align: center;
+  .el-button {
+    width: 220px;
+  }
+  .el-button+.el-button {
+    margin-left: 23px;
+  }
+  .cancel {
+    color: #40a9ff;
+  }
+}

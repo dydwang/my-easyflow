@@ -1,0 +1,23 @@
+{
+  "id": "2701223",
+  "name": "调参助手",
+  "font_family": "iconfont",
+  "css_prefix_text": "dyd-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "23195983",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "23134998",
+      "name": "组织架构",
+      "font_class": "iconzhengli_zuzhi",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}
